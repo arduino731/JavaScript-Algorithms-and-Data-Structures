@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding:0;
+}
+.logo{
+    display:flex;
+    justify-content: center;
+    width:400px;
+    height:100px;
+    background: #312f2f;
+    margin:10px auto;
+}
+.logoSnake{
+    width:100px;
+    height:100px;
+}
+.container{
+    display:flex;
+    justify-content: center;
+    background:red;
+}
+.buttonStartGame{
+    display:flex;
+    justify-content: center;
+    background: green;
+    align-items: flex-end;
+    height: 100px;
+}
+
+button{
+    margin:10px;
+    background:lightblue;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background:blue;
+    color:white;
+}
+canvas {
+	border: 10px solid #000000;
+	border-radius: 15px;
+	background-image: url('../assets/sand.png');
+	background-repeat: repeat;
+	display: flex;
+	margin: auto;
+	margin-top: 90px;
+	opacity: .95;
+}
