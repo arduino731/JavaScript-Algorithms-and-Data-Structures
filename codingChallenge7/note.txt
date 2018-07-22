@@ -1,4 +1,0 @@
-For example, show text inside a div with innerHTML. Change the color of a paragraph’s text. Add two numbers together. 
-Write your first function. Get comfortable with variables. 
-Store a collection of things in an array or an object. Make something happen when a button gets clicked. 
-Learn about logic with if and else. Try some loops.
