@@ -9,12 +9,10 @@ This is a record of my 100 Days of Code. The following links are for projects I 
 
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
-[coding Challenge 7](https://www.google.com "Coding Challenge 7")
+[coding Challenge 7](https://www.google.com "Coding Challenge 7") // example
 
 ## Daily Log
 
-Day 1 snake project coding challenge 7
-
-Day 1 [snakeproject](/codingChallenge7)
+Day 1 [snake project coding challenge 7] (/codingChallenge7)
 
 Day 2 worked...
