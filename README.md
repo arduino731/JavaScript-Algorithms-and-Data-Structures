@@ -13,5 +13,7 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 ## Daily Log
 
-Day 1 finish ..
+Day 1 snake project coding challenge 7
+
+
 Day 2 worked...
