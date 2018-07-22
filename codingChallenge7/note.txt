@@ -1,0 +1,4 @@
+$ live-server
+This is a little development server with live reload capability.
+
+https://www.npmjs.com/package/live-server

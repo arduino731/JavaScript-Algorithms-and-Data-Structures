@@ -1,15 +1,8 @@
 <!DOCTYPE html> 
 <head>
     <title>100 JavaScript Snake</title>
-    <link rel=stylesheet id=style type=text/css href=./css/main-snake.css />
-    <button onclick=getTheme()>Click to use this theme.</button>
-    <select id="select">
-        <option>Dark Theme</option>
-        <option>Bright Theme</option>
-        <option>Light Green Theme</option>
-    </select>
-    <div id="mode-wrapper">Select which mode you would like to play in.<br /><button id="Easy">Easy</button><br /><button id="Medium">Medium</button><br /><button id="Difficult">Difficult</button></div>
-<button id="high-score">Get your current high score for this game.</button>
+    <link rel=stylesheet id=style type=text/css href=./css/bright-snake.css />
+    <link rel=stylesheet id=style type=text/css href=./css/style.css />
 <script>
 const getTheme = () => {
     const changeTheme = ((Theme) => {
@@ -26,22 +19,36 @@ const getTheme = () => {
         case 2:
             changeTheme('css/lightgreen-snake.css');
     }
-
-
 } 
-
-
 </script>
 </head>
 <body>
-    <div id="game-area" tabindex="0">
+    <div class="logo">
+        <img src="./images/logoSnake2.png" alt="logo snake" class="logoSnake">
     </div>
+
+    <div class="container">
+        <button onclick=getTheme()>Click to use this theme.</button>
+        <select id="select">
+            <option>Dark Theme</option>
+            <option>Bright Theme</option>
+            <option>Light Green Theme</option>
+        </select>
+    </div>
+
+    <div class="buttonStartGame">
+        <div class="RightButton">
+            <button onclick=startGame()>Start the Game</button>
+        </div>
+    <!-- <div id="mode-wrapper">Select which mode you would like to play in.<br /><button id="Easy">Easy</button><br /><button id="Medium">Medium</button><br /><button id="Difficult">Difficult</button></div> -->
+    <!-- <button id="high-score">Get your current high score for this game.</button> -->
+        <div class="showInfo">
+            <h1 id="name">Name:</h1>
+            <h1 id="score">Score:</h1>
+        </div>
+    </div>
+
+    <canvas id="myCanvas" width="1024" height="768"></canvas>
     <script type="text/javascript" src="./js/snake.js"></script>
-    <script type="text/javascript">
-    var mySnakeBoard = new SNAKE.Board(  {
-                                            boardContainer: "game-area",
-                                            fullScreen: true
-                                        });    
-    </script>
 </body>
 </html>
