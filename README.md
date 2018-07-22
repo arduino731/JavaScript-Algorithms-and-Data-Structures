@@ -15,5 +15,6 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 Day 1 snake project coding challenge 7
 
+Day 1 [snakeproject](/codingChallenge7)
 
 Day 2 worked...
