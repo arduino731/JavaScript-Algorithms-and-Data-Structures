@@ -1,0 +1,47 @@
+<!DOCTYPE html> 
+<head>
+    <title>100 JavaScript Snake</title>
+    <link rel=stylesheet id=style type=text/css href=./css/main-snake.css />
+    <button onclick=getTheme()>Click to use this theme.</button>
+    <select id="select">
+        <option>Dark Theme</option>
+        <option>Bright Theme</option>
+        <option>Light Green Theme</option>
+    </select>
+    <div id="mode-wrapper">Select which mode you would like to play in.<br /><button id="Easy">Easy</button><br /><button id="Medium">Medium</button><br /><button id="Difficult">Difficult</button></div>
+<button id="high-score">Get your current high score for this game.</button>
+<script>
+const getTheme = () => {
+    const changeTheme = ((Theme) => {
+        let style = document.getElementById('style').setAttribute('href', Theme );
+    })
+    let index = document.getElementById('select').selectedIndex;
+    switch(index){
+        case 0:
+            changeTheme('css/dark-snake.css');
+            break;
+        case 1:
+            changeTheme('css/bright-snake.css');
+            break;
+        case 2:
+            changeTheme('css/lightgreen-snake.css');
+    }
+
+
+} 
+
+
+</script>
+</head>
+<body>
+    <div id="game-area" tabindex="0">
+    </div>
+    <script type="text/javascript" src="./js/snake.js"></script>
+    <script type="text/javascript">
+    var mySnakeBoard = new SNAKE.Board(  {
+                                            boardContainer: "game-area",
+                                            fullScreen: true
+                                        });    
+    </script>
+</body>
+</html>
