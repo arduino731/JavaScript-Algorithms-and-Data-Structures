@@ -1,7 +1,7 @@
 JavaScript Snake
-By Patrick Gillespie
-License: MIT
-http://patorjk.com/games/snake
+By Brian van Vlymen
+(https://arduino731.github.io/100daysofcode/codingChallenge7/)[https://arduino731.github.io/100daysofcode/codingChallenge7/
+]
 
 This is a DOM-based game of Snake that I wrote in JavaScript a few years back.
 
