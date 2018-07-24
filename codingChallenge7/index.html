@@ -39,6 +39,7 @@ const getTheme = () => {
     <div class="buttonStartGame">
         <div class="RightButton">
             <button onclick=startGame()>Start the Game</button>
+            <!-- <button id="startGame">Start the Game</button> -->
         </div>
     <!-- <div id="mode-wrapper">Select which mode you would like to play in.<br /><button id="Easy">Easy</button><br /><button id="Medium">Medium</button><br /><button id="Difficult">Difficult</button></div> -->
     <!-- <button id="high-score">Get your current high score for this game.</button> -->
@@ -48,10 +49,17 @@ const getTheme = () => {
         </div>
     </div>
 
-    <canvas id="myCanvas" width="1024" height="768"></canvas>
+    <div id="wall">
+        <canvas id="myCanvas" width="224" height="268"></canvas>
+    </div>
     
-    
-    
+    <div class="container2">
+
+        <img src="images/snake/head.svg" alt="headSnake" id="headSnake" class="resizeSnakeImages">
+    </div>
+
+
     <script type="text/javascript" src="./js/snake.js"></script>
+    
 </body>
 </html>
