@@ -37,13 +37,28 @@ button:hover{
     background:blue;
     color:white;
 }
-canvas {
-	border: 10px solid #000000;
-	border-radius: 15px;
-	background-image: url('../assets/sand.png');
-	background-repeat: repeat;
-	display: flex;
-	margin: auto;
-	margin-top: 90px;
-	opacity: .95;
+
+#wall{
+    background-color: #444;
+    width: 600px;
+    height:500px;
+    margin: 50px auto;
+    -webkit-box-shadow:0 0 10px #444;  
+      -moz-box-shadow:0 0 10px #444;  
+      box-shadow:0 0 10px #444; 
+      position: relative;
+}
+#canvas{
+    height: 100%;
+    width:100%;
+    background: -webkit-linear-gradient(top,transparent 19px, #fff 20px),
+                -webkit-linear-gradient(left,transparent 19px, #fff 20px);
+    background: -o-linear-gradient(top,transparent 19px, #fff 20px),
+                -o-linear-gradient(left,transparent 19px, #fff 20px);
+    background: -moz-linear-gradient(top,transparent 19px, #fff 20px),
+                -moz-linear-gradient(left,transparent 19px, #fff 20px);
+    background: linear-gradient(top,transparent 19px, #fff 20px),
+                linear-gradient(left,transparent 19px, #fff 20px);
+    background-size: 20px 20px;
+    background-repeat: repeat;
 }
