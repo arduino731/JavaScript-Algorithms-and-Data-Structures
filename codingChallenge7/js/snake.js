@@ -1,6 +1,8 @@
 const canvas = document.getElementById("myCanvas");
 const ctx = canvas.getContext("2d");
 
+const start = document.getElementById('startGame');
+const scoreHTML = document.getElementById('score');
 // const oh = parseInt(getComputedStyle(document.getElementById('wall')), height);
 // const ow = parseInt(getComputedStyle(document.getElementById('wall')), width);
 const oh = 500;
@@ -14,13 +16,15 @@ let score=0;
 let cw=20;
 let cx=10;
 let cy=6;
-let speed=500;
+let speed=300;
 
-const startGame = () => {
-    
-    init();
-    console.log("start game"); // not working... need fix it 
-}
+start.addEventListener('click', function(){
+    const startGame = () => {
+        init();
+        console.log("start game");
+    }
+    startGame();
+})
 
 const init = () => {
     create_snake();
@@ -62,8 +66,16 @@ const paint_snake= () => {
         score++;
         create_food();
     //     oscore.html(score);
+        console.log(score);
+        scoreHTML.innerHTML = score;
+        scoreHTML.className = "bounce animated faster";
+        // console.log(scoreHTML.outerHTML);
+        setTimeout(removeClass, 1000);
+        
+        
     }else{
         let old_tail=snake_array.pop(); // .pop method able to remove last of array 
+        // scoreHTML.classList.remove = "bounce animated once";
         // console.log('old_tail', old_tail); // removed x:0 and planning to update x:5 as sx++
         var tail=old_tail;  // let does not working at all it not read property 'x' of undefined. 
         clear_cell(old_tail.x,old_tail.y);
@@ -119,5 +131,10 @@ function clear_cell(x,y){
     ctx.fillRect(x*cx,y*cy,cx-1,cy-1); 
 }
 
-startGame();
+
+function removeClass(){
+    // alert('Hello');
+    scoreHTML.classList.remove("bounce" ,"animated" , "faster");// giving animated time
+    // console.log(scoreHTML.outerHTML);
+}
 
