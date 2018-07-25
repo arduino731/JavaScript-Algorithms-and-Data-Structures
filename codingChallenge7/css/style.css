@@ -62,3 +62,10 @@ button:hover{
     background-size: 20px 20px;
     background-repeat: repeat;
 }
+.showInfo{
+    display:flex;
+    justify-content: center;
+    align-self: center;
+    /* background:yellow; */
+    /* height:100px; */
+}
