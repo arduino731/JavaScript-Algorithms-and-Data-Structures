@@ -9,7 +9,7 @@ This is a record of my 100 Days of Code. The following links are for projects I 
 
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
-[coding Challenge 7](https://www.google.com "Coding Challenge 7") // example
+[coding Challenge 7](https://www.google.com "Coding Challenge 7") // example link
 
 ## Daily Log
 
@@ -19,9 +19,9 @@ Day 1-2 [snake project coding challenge 7](/codingChallenge7)
 
 **Thoughts:** I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality. Also, I never knew that the <canvas> element is perfect for making games.
 
-**Link to work:** [snake game] (https://arduino731.github.io/100daysofcode/codingChallenge7/)
+**Link to work:** [snake game](https://arduino731.github.io/100daysofcode/codingChallenge7/)
 
-Day 3-4 Solar System project [here] (https://codepen.io/arduino731/pen/mKZMjz)
+Day 3-4 Solar System project [here](https://codepen.io/arduino731/pen/mKZMjz)
 
 **Today's Progress**: Worked on main Flexbox and z-index deals with parent and children, hover mouse shows very nice background, click on any planet, and shows JSON specfic infomation. It deals with library TweenMax, but I can use transform or transition instead of but I did not. 
 
