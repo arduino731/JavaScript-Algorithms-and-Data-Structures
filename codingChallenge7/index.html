@@ -3,6 +3,8 @@
     <title>100 JavaScript Snake</title>
     <link rel=stylesheet id=style type=text/css href=./css/bright-snake.css />
     <link rel=stylesheet id=style type=text/css href=./css/style.css />
+    <link rel=stylesheet type=text/css href=./css/animate.css />
+
 <script>
 const getTheme = () => {
     const changeTheme = ((Theme) => {
@@ -38,13 +40,13 @@ const getTheme = () => {
 
     <div class="buttonStartGame">
         <div class="RightButton">
-            <button onclick=startGame()>Start the Game</button>
-            <!-- <button id="startGame">Start the Game</button> -->
+            <button id="startGame">Start the Game</button>
         </div>
     <!-- <div id="mode-wrapper">Select which mode you would like to play in.<br /><button id="Easy">Easy</button><br /><button id="Medium">Medium</button><br /><button id="Difficult">Difficult</button></div> -->
     <!-- <button id="high-score">Get your current high score for this game.</button> -->
         <div class="showInfo">
-            <h1 id="score">Score:</h1>
+            <h1>Score:</h1>
+            <h1 id="score">0</h1>
         </div>
     </div>
 
