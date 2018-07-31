@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.imageWolfPaws{
+    display: flex;
+    justify-content: space-around;
+    background: red;
+    width: 100%;
+    flex-wrap:wrap;
+    height:auto;
+}
+
+@media (min-width: 768px){
+    .image-paws-left {
+        /* margin-right: auto; */
+        /* margin-left: 0; */
+        max-height: 155px;
+    }
+}
+@media (min-width: 768px){
+    .image-paws-right {
+        /* display: block; */
+        /* margin-left: auto; */
+        /* position: relative; */
+        /* top: -180px; */
+        max-height: 155px;
+    }
+}
+
+.fadePerfect {
+	opacity: 0;
+	animation-name: fadePerfectOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease;
+	animation-duration: 2s;
+}
+
+@keyframes fadePerfectOpacity {
+	0% {
+		opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+	100% {
+		opacity: 0;
+	}
+}
