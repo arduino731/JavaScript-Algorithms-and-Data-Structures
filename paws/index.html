@@ -6,63 +6,61 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel=stylesheet id=style type=text/css href=./css/style.css />
 
-    <title>Document</title>
+    <title>Walking Paws</title>
 </head>
 <body>
-    <div class="placeName">
-        <div class="imageWolfPaws">
-            <img class="image-paws-left" src="images/wolf_pawLeft.png">
-            <img class="image-paws-right" src="images/wolf_pawRight.png">
+    <div class="imageWolfPaws">
+        <div class="walkingPawBox">
+          <div>
+            <img class="image-paws-left" src="https://res.cloudinary.com/djohzk4di/image/upload/v1533166981/wolf_pawLeft.png">
+          </div>
+        </div>
+
+        <div class="walkingPawBox">
+          <div>
+            <img class="image-paws-right" src="https://res.cloudinary.com/djohzk4di/image/upload/v1533166981/wolf_pawRight.png">
+          </div>
         </div>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
     
     <script>
-            let count = 12;
-            let t;
-            let total = 0;
+    let count = 10;
+    var i = 0;
+    var moveUpLeft = 300;
 
-            const pawLeft = document.getElementsByClassName('image-paws-left')[0];
-            console.log(pawLeft);
+    const pawLeft = document.getElementsByClassName('image-paws-left')[0];
+    console.log(pawLeft);
 
 
-            for(i=0; i<=count; i++){
-                if( i % 2 === 0){
-                    t = 100;
-                    console.log('number:', i);
-                    total = t + total;
-                    pawLeft.classList.add('fadePerfect');
-                    console.log(total);
-                    for(j=0; j< 10; j++){
-                    setTimeout(function(){
-                        console.log("hi")
-                    }, 1000)
-                    }
-                }
+    function myLoop(){
+    setTimeout(function() {
+        i++;
+        if(i< 10){
+        if( i % 2 === 0) {
+            console.log('add');
+            pawLeft.classList.add('fadePerfect');
+            pawLeft.style.display = "flex";
+            myLoop();
+        } else {
+            console.log('remove');
+            pawLeft.classList.remove('fadePerfect');
+            pawLeft.style.display = 'none';
+            myLoop();
+        }
+        }
+        if(i === 10){
+        console.log('done');
+        }
+    }, 3000)
+    }
 
-            }
+    const paint_paws = () => {
+    
+    }
 
-                // setInterval(function(){ 
-                    // pawLeft.classList.add('fadePerfect');
-                //     // pawLeft.classList.remove('fade-in');
-                //     // pawLeft.classList.add('fade-out');
-                //     // pawLeft.classList.remove('fade-out'); 
-                // }, 1000);
-                // // setInterval(function (){
-                // //     pawLeft.classList.remove('fade-in');
-                // // },1000);
-                // setInterval(function (){
-                //     pawLeft.classList.add('fade-out');
-                // },1000);
-                // // setInterval(function (){
-                // //     pawLeft.classList.remove('fade-out');
-                // // },1000);
-                
-                // console.log(pawLeft);
-             
-                // TweenMax.from(".image-paws-left", 4, { y: 500, ease:SteppedEase.config(12)})
-            
-            // TweenMax.from(".image-paws-right", 4, { y: 500, ease:SteppedEase.config(12)})
+
+    myLoop();
+
     </script>
 </body>
 </html>

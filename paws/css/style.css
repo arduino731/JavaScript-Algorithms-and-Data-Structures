@@ -7,43 +7,40 @@
     justify-content: space-around;
     background: red;
     width: 100%;
-    flex-wrap:wrap;
-    height:auto;
+    flex-wrap: nowrap;
+    height:500px;
 }
-
+.walkingPawBox{
+  height:400px;
+  width: 200px;
+  background:green;
+  display:flex;
+  justify-content:center;
+}
+/* very important */
+/* .image-paws-left, .image-paws-right{
+  display:none;
+} */
 @media (min-width: 768px){
-    .image-paws-left {
+    .image-paws-left, .image-paws-right {
         /* margin-right: auto; */
         /* margin-left: 0; */
         max-height: 155px;
-    }
-}
-@media (min-width: 768px){
-    .image-paws-right {
-        /* display: block; */
-        /* margin-left: auto; */
-        /* position: relative; */
-        /* top: -180px; */
-        max-height: 155px;
+      height:100px;
+      width: 100px;
     }
 }
 
 .fadePerfect {
 	opacity: 0;
-	animation-name: fadePerfectOpacity;
-	animation-iteration-count: 1;
-	animation-timing-function: ease;
-	animation-duration: 2s;
+  animation: fadePerfectOpacity 3s ease-in-out;
 }
 
 @keyframes fadePerfectOpacity {
-	0% {
+	0%, 100% {
 		opacity: 0;
     }
     50% {
         opacity: 1;
     }
-	100% {
-		opacity: 0;
-	}
 }
