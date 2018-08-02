@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.imageWolfPaws{
+    display: flex;
+    justify-content: space-around;
+    background: red;
+    width: 100%;
+    flex-wrap: nowrap;
+    height:500px;
+}
+.walkingPawBox{
+  height:400px;
+  width: 200px;
+  background:green;
+  display:flex;
+  justify-content:center;
+}
+/* very important */
+/* .image-paws-left, .image-paws-right{
+  display:none;
+} */
+@media (min-width: 768px){
+    .image-paws-left, .image-paws-right {
+        /* margin-right: auto; */
+        /* margin-left: 0; */
+        max-height: 155px;
+      height:100px;
+      width: 100px;
+    }
+}
+
+.fadePerfect {
+	opacity: 0;
+  animation: fadePerfectOpacity 3s ease-in-out;
+}
+
+@keyframes fadePerfectOpacity {
+	0%, 100% {
+		opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
