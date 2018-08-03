@@ -12,7 +12,7 @@
     <div class="imageWolfPaws">
         <div class="walkingPawBox">
           <div>
-            <img class="image-paws-left" src="https://res.cloudinary.com/djohzk4di/image/upload/v1533166981/wolf_pawLeft.png">
+            <img class="image-paws-left" src="https://res.cloudinary.com/djohzk4di/image/upload/v1533251712/wolf_pawLeft.png">
           </div>
         </div>
 
@@ -21,15 +21,17 @@
             <img class="image-paws-right" src="https://res.cloudinary.com/djohzk4di/image/upload/v1533166981/wolf_pawRight.png">
           </div>
         </div>
-    </div>
+      </div>
     
     <script>
     let count = 10;
     var i = 0;
-    var moveUpLeft = 300;
+    var moveUpPaws = 250;
 
     const pawLeft = document.getElementsByClassName('image-paws-left')[0];
-    console.log(pawLeft);
+    const pawRight = document.getElementsByClassName('image-paws-right')[0];
+
+    // console.log(pawRight);
 
 
     function myLoop(){
@@ -37,29 +39,49 @@
         i++;
         if(i< 10){
         if( i % 2 === 0) {
-            console.log('add');
+            moveUpPaws = moveUpPaws-25;
+            console.log('left', moveUpPaws);
             pawLeft.classList.add('fadePerfect');
+            pawRight.classList.remove('fadePerfect');
             pawLeft.style.display = "flex";
+            pawRight.style.display = "none";
+            
+            pawLeft.style.marginTop = moveUpPaws + 'px';
             myLoop();
         } else {
-            console.log('remove');
+            moveUpPaws = moveUpPaws-25;
+            console.log('right', moveUpPaws);
             pawLeft.classList.remove('fadePerfect');
+            pawRight.classList.add('fadePerfect');
             pawLeft.style.display = 'none';
+            pawRight.style.display = 'flex';
+            pawRight.style.marginTop = moveUpPaws + 'px';
             myLoop();
         }
+        }
+        if(i === 9){
+        pawRight.style.opacity = "1";
+        pawRight.style.display = "flex";
+        pawRight.classList.add('fadeinEnd');
+        moveUpPaws = moveUpPaws-25;
+        pawRight.style.marginTop = moveUpPaws + 'px';
         }
         if(i === 10){
         console.log('done');
+        moveUpPaws = moveUpPaws;
+        pawLeft.style.marginTop = moveUpPaws + 'px';
+        pawLeft.style.display = "flex";
+        pawLeft.style.opacity = "1";
+        pawLeft.classList.add('fadeinEnd');
+        
         }
-    }, 3000)
+    }, 500)
     }
 
-    const paint_paws = () => {
-    
-    }
 
 
     myLoop();
+
 
     </script>
 </body>
