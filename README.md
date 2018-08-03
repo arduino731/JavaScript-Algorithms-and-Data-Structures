@@ -35,6 +35,6 @@ Day 5-6
 **Today's Progress**: worked on main Flexbox, DOM JavaScript, setTimeout(), animation such as @keyframes
 
 **Thoughts**: At the first, I was without looking at their or tutorial online courses I was thought loop able to stop an infinite loop in JavaScript but I was wrong, so I have decided to use the method called setTimeout because of the iterate very quickly. 
-here [link](https://stackoverflow.com/questions/3583724/how-do-i-add-a-delay-in-a-javascript-loop)
+here [How do I add a delay in a JavaScript loop?](https://stackoverflow.com/questions/3583724/how-do-i-add-a-delay-in-a-javascript-loop)
 
 **Link to work:** Walking Paws Bot to Top DOM [here](https://codepen.io/arduino731/pen/bjvObW)
