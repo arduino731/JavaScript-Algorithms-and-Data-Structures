@@ -9,7 +9,6 @@ This is a record of my 100 Days of Code. The following links are for projects I 
 
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
-[coding Challenge 7](https://www.google.com "Coding Challenge 7") // example link
 
 ## Daily Log
 
