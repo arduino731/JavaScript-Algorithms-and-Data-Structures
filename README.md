@@ -36,7 +36,7 @@ Day 5-6
 **Thoughts**: At the first, I was without looking at their or tutorial online courses I was thought loop able to stop an infinite loop in JavaScript but I was wrong, so I have decided to use the method called setTimeout because of the iterate very quickly. 
 here [How do I add a delay in a JavaScript loop?](https://stackoverflow.com/questions/3583724/how-do-i-add-a-delay-in-a-javascript-loop)
 
-**Link to work:** Walking Paws Bot to Top DOM [here](https://codepen.io/arduino731/pen/bjvObW)
+**Link to Work:** Walking Paws Bot to Top DOM [here](https://codepen.io/arduino731/pen/bjvObW)
 
 Day 7-10
 
@@ -44,4 +44,12 @@ Day 7-10
 
 **Thoughts**: 
 
-**Link to work:** CRUD Hockey Team Manger [here](https://github.com/arduino731/CRUD-hockey-table/tree/master)
+**Link to Work:** CRUD Hockey Team Manger [here](https://github.com/arduino731/CRUD-hockey-table/tree/master)
+
+Day 11
+
+**Today's Progress**: To play the game, you will only have 6 remain mistakes or your game will be over. It is fun to play the game to guess the letters! 
+
+**Thoughts**: I made a project with vanilla JavaScript. I have to create the split method and toUpperCase() because sometime user puts lower case. It will automate to captial letters no matter what. Also, it creates array so it can loop with length after random of array words that I make up the words. I learnt that the autofocus attribute in HTML could be input, button, textarea, and select. For one example, when we put html two input fields with an autofocus to force a blinking cursor to appear in your target field, which will draw the users eye and instruct them to begin typing.  It cant have two autofocus only one. Same concept as id in JavaScript. 
+
+**Link to Work:Hangman game DOM [here](https://codepen.io/arduino731/full/mjQVZg/)
