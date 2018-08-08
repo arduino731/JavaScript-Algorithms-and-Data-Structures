@@ -38,3 +38,11 @@ Day 5-6
 here [How do I add a delay in a JavaScript loop?](https://stackoverflow.com/questions/3583724/how-do-i-add-a-delay-in-a-javascript-loop)
 
 **Link to work:** Walking Paws Bot to Top DOM [here](https://codepen.io/arduino731/pen/bjvObW)
+
+Day 7-10
+
+**Today's Progress**: a simple CRUD project with Mongodb and Express 
+
+**Thoughts**: 
+
+**Link to work:** CRUD Hockey Team Manger [here](https://github.com/arduino731/CRUD-hockey-table/tree/master)
