@@ -56,6 +56,6 @@ Day 11
 
 Day 11-12
 
-**Today's Progress**: I had to look up at learn.Freecodecamp.org Curriculum on Object Oriented Programming section for couple of hours. 
+**Today's Progress**: I had to look up at learn.Freecodecamp.org Curriculum on **Object Oriented Programming** section for couple of hours. 
 
-**Thoughts**: instanceof and constructor are similar. However, instanceof method is better over constructor because it check the type of an object intead of overwritten.  
+**Thoughts**: instanceof and constructor are similar. However, instanceof method is better over constructor because it checks the type of an object intead of overwritten. Also, the prototype is extremely useful for DRY because the properties are added all at once. I do not want to use the constructor to be duplicated variable. 
