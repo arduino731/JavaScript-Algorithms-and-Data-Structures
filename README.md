@@ -62,11 +62,11 @@ Day 11-12
 
 Day 13 
 
-**Today's Progress**: I had to review again forEach vs Map. I was working on API section and there are so many object literal. I would like to create new array return object, but when using **foreach** is always return undefined.  
+**Today's Progress**: I had to review .forEach vs .map again because I want to create multipy blue thin box identify each face recongoize. Clarifai is amazing API because they are using AI predict the picture such as apparel, celebrity, food, face detection, color, landscape, logo, travel and many more. For this project, I was using face detection so it can tell you specific value of width and height every time you uploaded the image. 
 
-**Thoughts**:
+**Thoughts**: I do not want to make only one box on face detection, so I have decide to use .map method creates a new array with value results every element because they are SO many object literal. I do not need all of them, so I have decide to use map method. When I use return, it will create new object with array, but when I use **foreach** method is always return undefined. just remember that...  
 
-**Link to Work**:[use the map Method to Extract Data](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/functional-programming/use-the-map-method-to-extract-data-from-an-array/)
+**Link to Work**:[use the map Method to Extract Data from an Array](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/functional-programming/use-the-map-method-to-extract-data-from-an-array/) and [map](https://arduino731.github.io/100daysofcode/day13/mapVSforEach.js)
 
 Day 14
 
