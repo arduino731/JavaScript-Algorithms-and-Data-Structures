@@ -59,3 +59,35 @@ Day 11-12
 **Today's Progress**: I had to look up at learn.Freecodecamp.org Curriculum on **Object Oriented Programming** section for couple of hours. 
 
 **Thoughts**: instanceof and constructor are similar. However, instanceof method is better over constructor because it checks the type of an object intead of overwritten. Also, the prototype is extremely useful for DRY because the properties are added all at once. I do not want to use the constructor to be duplicated variable. 
+
+Day 13 
+
+**Today's Progress**: I had to review again forEach vs Map. I was working on API section and there are so many object literal. I would like to create new array return object, but when using **foreach** is always return undefined.  
+
+**Thoughts**:
+
+**Link to Work**:[use the map Method to Extract Data](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/functional-programming/use-the-map-method-to-extract-data-from-an-array/)
+
+Day 14
+
+**Today's Progress**: 
+
+**Thoughts**:
+
+**Link to Work**:
+
+Day 15
+
+**Today's Progress**: 
+
+**Thoughts**:
+
+**Link to Work**:
+
+Day 00
+
+**Today's Progress**: 
+
+**Thoughts**:
+
+**Link to Work**:
