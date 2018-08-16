@@ -62,11 +62,11 @@ Day 11-12
 
 Day 13 
 
-**Today's Progress**: I had to review .forEach vs .map again because I want to create multipy blue thin box identify each face recongoize. Clarifai is amazing API because they are using AI predict the picture such as apparel, celebrity, food, face detection, color, landscape, logo, travel and many more. For this project, I was using face detection so it can tell you specific value of width and height every time you uploaded the image. 
+**Today's Progress**: I was working on .forEach vs .map method. I want to create multipy blue thin box identify each face recongoize. Clarifai is amazing API because they are using AI predict the picture such as apparel, celebrity, food, face detection, color, landscape, logo, travel and many more. For this project, I was using face detection so it can tell you specific value of width and height every time you uploaded the image. 
 
-**Thoughts**: I do not want to make only one box on face detection, so I have decided to use .map method creates a new array with value results every element because they are SO many objects literal. I do not need all of them, so I have decided to use the map method. When I use return, it will create new object with array, but when I use **foreach** method is always return undefined. just remember that...  
+**Thoughts**: I do not want to make only one box on face detection, so I have decided to use .map method creates a new array with value results every element before using the .map method there were SO many objects literal.I would like to lit bit clean up with new array after call the method, so I have decided to use the map method. When I use return, it will create new object that holds key pairs with array the result, but when I use **foreach** method is always return undefined because they are running once function for each array element. Also, forEach method does not mutate or change the array there is no way to stop or break. just remember that...  
 
-**Link to Work**:[use the map Method to Extract Data from an Array](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/functional-programming/use-the-map-method-to-extract-data-from-an-array/) and [map](https://arduino731.github.io/100daysofcode/day13/mapVSforEach.js)
+**Link to Work**:[use the map Method to Extract Data from an Array](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/functional-programming/use-the-map-method-to-extract-data-from-an-array/) and [map](https://arduino731.github.io/100daysofcode/day13/mapVSforEach.js) and [map vs forEach](https://arduino731.github.io/100daysofcode/day13/mapVSforEach-2.js)
 
 Day 14
 
