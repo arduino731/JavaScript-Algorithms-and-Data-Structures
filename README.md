@@ -70,7 +70,7 @@ Day 13
 
 Day 14
 
-**Today's Progress**: 
+**Today's Progress**: work on true and false 
 
 **Thoughts**:
 
