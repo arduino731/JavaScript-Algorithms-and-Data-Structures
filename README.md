@@ -74,7 +74,7 @@ Day 14
 
 **Thoughts**:
 
-**Link to Work**:
+**Link to Work**: [JavaScript OOP](https://arduino731.github.io/100daysofcode/day14/index.html)
 
 Day 15
 
