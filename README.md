@@ -78,11 +78,11 @@ Day 14
 
 Day 15
 
-**Today's Progress**: 
+**Today's Progress**: practice DOM game 
 
-**Thoughts**:
+**Thoughts**: 
 
-**Link to Work**:
+**Link to Work**: [codepen](www.google.com)
 
 Day 00
 
