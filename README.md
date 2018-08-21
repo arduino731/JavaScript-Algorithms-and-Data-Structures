@@ -78,11 +78,11 @@ Day 14
 
 Day 15
 
-**Today's Progress**: practice DOM game 
+**Today's Progress**: Reviewed on Express framework and several npm modules such as body-parser gravator jason webtoken mongoose express bcryptjs passport passport-jwt validator. I have updated some npm versions due to outdated and installed some tool 'nodemon' to save my huge time. I recommended you to intalled development dependency, not local dependency
 
-**Thoughts**: 
+**Thoughts**: I want to improve my skills keep in simple stupid (KISS) within just one hour.
 
-**Link to Work**: [codepen](www.google.com)
+**Link to Work**: [package.json](https://arduino731.github.io/100daysofcode/day15/package.json)
 
 Day 00
 
