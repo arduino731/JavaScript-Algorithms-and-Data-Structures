@@ -78,7 +78,7 @@ Day 14
 
 Day 15
 
-**Today's Progress**: Reviewed on Express framework and several npm modules such as body-parser gravator jason webtoken mongoose express bcryptjs passport passport-jwt validator. I have updated some npm versions due to outdated and installed some tool 'nodemon' to save my huge time. I recommended you to intalled development dependency, not local dependency
+**Today's Progress**: Reviewed on amazing Express framework and several npm modules such as body-parser gravator jason webtoken mongoose express bcryptjs passport passport-jwt validator. I have updated some npm versions due to outdated and installed some tool 'nodemon' to save my huge time. I recommended you to intalled development dependency, not local dependency
 
 **Thoughts**: I want to improve my skills keep in simple stupid (KISS) within just one hour.
 
