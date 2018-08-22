@@ -84,6 +84,14 @@ Day 15
 
 **Link to Work**: [package.json](https://arduino731.github.io/100daysofcode/day15/package.json)
 
+Day 16
+
+**Today's Progress**: working on basic To Do List and I have reivewed some another CSS framework
+
+**Thoughts**: 
+
+**Link to Work**: [To Do](https://arduino731.github.io/100daysofcode/day16/index.html)
+
 Day 00
 
 **Today's Progress**: 
