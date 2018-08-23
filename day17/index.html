@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Todo List</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title">Todo List</h1>
+        <div class="todoListContainer">
+            <ul id="todos">
+                <!-- <li><input type="checkbox" id="" class="inputToDo"><span>word</span><button class="buttonDelete">delete</button></li> -->
+            </ul>
+        </div>
+        <div class="formContainer">
+            <div id="form-error-message" class="animated"></div>
+            <form id="new-todo">
+                <input type="text" name="text"> 
+                <button type="submit">add item</button>
+            </form>
+        </div>
+    </div>
+    <script src="js/uuidv4.js"></script>
+    <script src="todo-functions.js"></script>
+    <script src="todo.js"></script>
+</body>
+
+</html>

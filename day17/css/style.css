@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding:0;
+}
+body {
+    /* background: */
+    background-image: url('../img/irongrip.png');
+    width:100%;
+    height:auto;
+}
+
+h1.title {
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.todoListContainer,
+.formContainer {
+    width: 250px;
+    border: 1px solid white;
+}
+
+.formContainer {
+    border-top: none;
+    z-index: 1;
+}
+
+#new-todo {
+    /* padding: 5px; */
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+}
+
+#new-todo input[type=text] {
+    flex-grow: 1;
+    padding: 5px;
+}
+
+/* #new-todo button{
+    width: 100%;
+    margin-top:5px;
+} */
+
+#todos {
+    padding: 0;
+    background:grey;
+    margin: 0;
+}
+
+#todos li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    z-index: 1;
+}
+
+#todos li::last-child {
+    z-index: 1;
+    animation-name: slideInUp;
+}
+
+#todos li span {
+    color: white;
+}
+
+#todos li input[type=checkbox] {
+    height: 15px;
+    width: 15px;
+    background-color: #eee;
+}
+
+#todos li input:checked {
+    background-color: #2196F3;
+}
+
+#form-error-message {
+    display: none;
+    background-color: red;
+    color: white;
+    padding: 3px;
+    border-bottom: 1px solid white;
+}
+
+#form-error-message.show {
+    display: flex;
+    justify-content: center;
+    /* vendor-animation-iteration-count: 1; */
+    /* -vendor-animation-iteration-count: infinite; */
+    /* -webkit-animation-duration: 3s; */
+    /* -webkit-animation-delay: 2s; */
+}

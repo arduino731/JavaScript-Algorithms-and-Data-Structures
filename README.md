@@ -90,12 +90,12 @@ Day 16
 
 **Thoughts**: 
 
-**Link to Work**: [To Do](https://arduino731.github.io/100daysofcode/day16/index.html)
+**Link to Work**: [Todo List](https://arduino731.github.io/100daysofcode/day16/index.html)
 
-Day 00
+Day 17
 
-**Today's Progress**: 
+**Today's Progress**: Basically, I am using flexbox 
 
-**Thoughts**:
+**Thoughts**: 
 
-**Link to Work**:
+**Link to Work**: [Todo List](https://arduino731.github.io/100daysofcode/day17/index.html)
