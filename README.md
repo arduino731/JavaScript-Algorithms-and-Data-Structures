@@ -1,7 +1,7 @@
-# 100daysofcode
+# 100 Days of Code 
+
 My log for the 100 days of code challenge.
 
-# 100 Days of Code 
 This is a record of my 100 Days of Code. The following links are for projects I worked on during the challenge.
 This is best opportunity practice prjects from the gauge of HTML, CSS, JavaScript, Express with Node.js, API's, JSON, MongoDB frameworks and many more 
 
