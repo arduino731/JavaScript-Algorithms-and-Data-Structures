@@ -1,0 +1,21 @@
+*{
+    margin:0;
+    padding:0;
+}
+.logo{
+    display:flex;
+    justify-content: center;
+    width:400px;
+    height:100px;
+    background: #312f2f;
+    margin:10px auto;
+}
+.logoSnake{
+    width:100px;
+    height:100px;
+}
+.container{
+    display:flex;
+    justify-content: center;
+    background:red;
+}

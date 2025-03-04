@@ -5,7 +5,7 @@ const start = document.getElementById('startGame');
 const scoreHTML = document.getElementById('score');
 // const oh = parseInt(getComputedStyle(document.getElementById('wall')), height);
 // const ow = parseInt(getComputedStyle(document.getElementById('wall')), width);
-const oh = 500;
+const oh = 600;
 const ow = 600;
 
 let snake_array=[];
@@ -54,13 +54,16 @@ const paint_snake= () => {
     // color snake
     var sx=snake_array[0].x;
     var sy=snake_array[0].y;
+    // remember graph always right or up are positive and left and down are negative. 
     // console.log('snake_array for X', sx);
+    // console.log('snake_array for y', sy);
     if(nextS=="right") sx++;
     else if(nextS=="left") sx--;
     else if(nextS=="up") sy--;
     else if(nextS=="down") sy++;
 
     //////////////////////////////////////////////
+    // feed snake and grow size body
     if (sx==food.x && sy==food.y) {
         var tail={x:sx,y:sy};
         score++;
@@ -76,10 +79,11 @@ const paint_snake= () => {
     }else{
         let old_tail=snake_array.pop(); // .pop method able to remove last of array 
         // scoreHTML.classList.remove = "bounce animated once";
-        // console.log('old_tail', old_tail); // removed x:0 and planning to update x:5 as sx++
+        console.log('old_tail', old_tail); // removed x:0 and planning to update x:5 as sx++
         var tail=old_tail;  // let does not working at all it not read property 'x' of undefined. 
         clear_cell(old_tail.x,old_tail.y);
         tail.x=sx; //  x for tail to cover up every color in the beginning of an array
+        // console.log(sx)
         tail.y=sy; //  y for tail to cover up every color in the beginning of an array
         // console.log('new number', old_tail)
     }

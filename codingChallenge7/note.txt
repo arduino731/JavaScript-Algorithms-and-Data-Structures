@@ -7,3 +7,39 @@ https://www.npmjs.com/package/live-server
 .pop
 .unshift
 .setInterval(function, millsecs)
+
+This is a DOM-based game of Snake 
+
+I never knew that the <canvas> element is perfect for making games.
+<canvas> element perfect to make game
+I build very simple a line is <canvas id="myCanvas" width="600" height="500"></canvas> inside of body element 
+
+
+create_snake body method 
+You will want to start the game with 5 size of snake every time you eat and you will grow one size. you 
+will need to create variable that is let and be aware that do not use const because varilable will not mutable. 
+the snake body size start with 5 and assign to the variable. you will want to create key pair with object and push 
+x instead of y. remember that x is going to row and y is going to conlum.  
+
+create_food method 
+You will want to create key pair of object with Math random number with round method. 
+    const ow = 600;
+const oh = 500;
+
+    let cw=20;
+    food = {
+        x:Math.round(Math.random()*(ow-cw)/cw),
+        y:Math.round(Math.random()*(oh-cw)/cw)
+    }
+
+to create graph 
+    graph always right or up are positive and left and down are negative. 
+
+.setInterval 
+    it has two parameters are required the first one is function, the second is millseces. 
+
+
+cavas ctx.fillRect ?
+setInterval?
+clearInterval???
+

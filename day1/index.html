@@ -1,15 +1,11 @@
 <!DOCTYPE html> 
 <head>
     <title>JavaScript Snake</title>
-    <!-- <link rel=stylesheet id=style type=text/css href=./css/bright-snake.css /> -->
     <link rel=stylesheet id=style type=text/css href=./css/lightgreen-snake.css />
-    <!-- <link rel=stylesheet id=style type=text/css href=style /> -->
     <link rel=stylesheet type=text/css href=./css/style.css />
-    <!-- <link rel=stylesheet type=text/css href=./css/animate.css /> -->
 
 <script type="text/javascript">
 const getTheme = () => {
-    // const selectedValue = 0;
     const changeTheme = ((Theme) => {
         let style = document.getElementById('style').setAttribute('href', Theme );
     })
@@ -36,37 +32,12 @@ const getTheme = () => {
     </div>
 
     <div class="container">
-        <!-- <button onclick=getTheme()>Click to use this theme.</button> -->
         <select id="selectBox" onchange=getTheme()>
             <option >Dark Theme</option>
             <option >Bright Theme</option>
             <option  selected >Light Green Theme</option>
         </select>
     </div>
-
-    <div class="buttonStartGame">
-        <div class="RightButton">
-            <button id="startGame">Start the Game</button>
-        </div>
-    <!-- <div id="mode-wrapper">Select which mode you would like to play in.<br /><button id="Easy">Easy</button><br /><button id="Medium">Medium</button><br /><button id="Difficult">Difficult</button></div> -->
-    <!-- <button id="high-score">Get your current high score for this game.</button> -->
-        <div class="showInfo">
-            <h1>Score:</h1>
-            <h1 id="score">0</h1>
-        </div>
-    </div>
-
-    <div id="wall">
-        <canvas id="myCanvas" width="600" height="500"></canvas>
-    </div>
-    
-    <div class="container2">
-
-        <img src="images/snake/head.svg" alt="headSnake" id="headSnake" class="resizeSnakeImages">
-    </div>
-
-
-    <script type="text/javascript" src="./js/snake.js"></script>
     
 </body>
 </html>
