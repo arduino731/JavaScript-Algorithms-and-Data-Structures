@@ -1,9 +1,8 @@
-# 100 Days of Code 
+# JavaScript Algorithms and Data Structures 
 
-My log for the 100 days of code challenge.
+My log for the JavaScript Algorithms and Data Structures.
 
-This is a record of my 100 Days of Code. The following links are for projects I worked on during the challenge.
-This is best opportunity practice prjects from the gauge of HTML, CSS, JavaScript, Express with Node.js, API's, JSON, MongoDB frameworks and many more 
+This document serves as a record of my progress in JavaScript Algorithms and Data Structures, tracking the challenges and projects I have worked on. It includes a structured list of algorithms, problem-solving techniques, and best practice implementations aimed at strengthening my understanding of JavaScript. Through these hands-on projects, I am improving my ability to write efficient, optimized code while reinforcing fundamental concepts such as data manipulation, control structures, and algorithmic problem-solving. This log not only documents my journey but also serves as a reference for refining my skills and applying best practices in real-world scenarios.
 
 ## Projects
 
@@ -12,15 +11,18 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 ## Daily Log
 
-Day 1
+1 project
 
 ### JavaScript Select Menu: Changing Background with Switch and DOM Manipulation
-
 
 ###### Summary for this project 
 I have built a functionality using vanilla JavaScript that allows selecting three options with a function to change the background. It uses a `````switch````` statement and handles the `selectedIndex`, dealing with `-1` when no option is selected. The `selectedIndex` property will return `-1` if no option is chosen. Additionally, I use the `setAttribute` method to modify the `href` attribute of an HTML `<head>` element to manipulate the DOM (Document Object Model) with JavaScript.
 
 **Link to work:** [JavaScript Select Menu: Changing Background with Switch and DOM Manipulation](https://arduino731.github.io/100daysofcode/day1/)
+
+2 project 
+
+coming soon. 
 
 
 Day 1-2
