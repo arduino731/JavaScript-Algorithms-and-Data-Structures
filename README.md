@@ -16,7 +16,7 @@ I have built a functionality using vanilla JavaScript that allows selecting thre
 
 |  #  |            Project             | Live Demo |
 | :-: | :----------------------------: | :-------: |
-| 01  |     [JavaScript Select Menu: Changing Background with Switch and DOM Manipulation](https://github.com/arduino731/JavaScript-Algorithms-and-Data-Structures/tree/master/1project) | [Live Demo](https://arduino731.github.io/100daysofcode/day1/)  |
+| 01  |     [JavaScript Select Menu: Changing Background with Switch and DOM Manipulation](https://github.com/arduino731/JavaScript-Algorithms-and-Data-Structures/tree/master/1project) | [Live Demo](https://arduino731.github.io/JavaScript-Algorithms-and-Data-Structures/1project/)  |
 | 02  |     [Movie Seat Booking](https://github.com/bradtraversy/vanillawebprojects/tree/master/movie-seat-booking)    | [Live Demo](https://vanillawebprojects.com/projects/movie-seat-booking/)  |
 
 2 project 
