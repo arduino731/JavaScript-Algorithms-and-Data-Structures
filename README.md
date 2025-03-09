@@ -6,9 +6,7 @@ This document serves as a record of my progress in JavaScript Algorithms and Dat
 
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
-## Projects
-
-###### Summary for this project 
+###### Summary for this projects 
 
 |  #  |            Project             | Live Demo |
 | :-: | :----------------------------: | :-------: |
