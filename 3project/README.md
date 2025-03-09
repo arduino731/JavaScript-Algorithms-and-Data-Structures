@@ -3,7 +3,7 @@
 ###### Summary for this project 
 ###### Purpose: Showcase the animation as a creative UI feature in a portfolio.
 
-**Link to work:** [Name? ](https://arduino731.github.io/JavaScript-Algorithms-and-Data-Structures/3project/)
+**Link to work:** [Animation Paws](https://arduino731.github.io/JavaScript-Algorithms-and-Data-Structures/3project/)
 
 1. Use flexbox → The parent container is in column layout, and child elements are justify-content: center.
 2. Default margin-top = 0px → Moves down by 250px in increments.
