@@ -8,21 +8,20 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 ## Projects
 
-1 project
-
 ###### Summary for this project 
-I have built a functionality using vanilla JavaScript that allows selecting three options with a function to change the background. It uses a `````switch````` statement and handles the `selectedIndex`, dealing with `-1` when no option is selected. The `selectedIndex` property will return `-1` if no option is chosen. Additionally, I use the `setAttribute` method to modify the `href` attribute of an HTML `<head>` element to manipulate the DOM (Document Object Model) with JavaScript.
-
 
 |  #  |            Project             | Live Demo |
 | :-: | :----------------------------: | :-------: |
 | 01  |     [JavaScript Select Menu: Changing Background with Switch and DOM Manipulation](https://github.com/arduino731/JavaScript-Algorithms-and-Data-Structures/tree/master/1project) | [Live Demo](https://arduino731.github.io/JavaScript-Algorithms-and-Data-Structures/1project/)  |
-| 02  |     [Movie Seat Booking](https://github.com/bradtraversy/vanillawebprojects/tree/master/movie-seat-booking)    | [Live Demo](https://vanillawebprojects.com/projects/movie-seat-booking/)  |
+| 02  |     [Form Input Text Wave](https://github.com/arduino731/JavaScript-Algorithms-and-Data-Structures/tree/master/2project) | [Live Demo](https://arduino731.github.io/JavaScript-Algorithms-and-Data-Structures/2project/)  |
 
-2 project 
 
-coming soon. 
-Day 1-2
+
+
+
+
+
+
 
 **Today's Progress**: Fixed CSS, worked on canvas functionality for the app.
 
