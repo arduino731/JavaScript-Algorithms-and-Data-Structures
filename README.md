@@ -12,7 +12,7 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 | :-: | :----------------------------: | :-------: |
 | 01  |     [JavaScript Select Menu: Changing Background with Switch and DOM Manipulation](https://github.com/arduino731/JavaScript-Algorithms-and-Data-Structures/tree/master/1project) | [Live Demo](https://arduino731.github.io/JavaScript-Algorithms-and-Data-Structures/1project/)  |
 | 02  |     [Form Input Text Wave](https://github.com/arduino731/JavaScript-Algorithms-and-Data-Structures/tree/master/2project) | [Live Demo](https://arduino731.github.io/JavaScript-Algorithms-and-Data-Structures/2project/)  |
-
+| 03  |     [Animation Paws](https://github.com/arduino731/JavaScript-Algorithms-and-Data-Structures/tree/master/3project) | [Live Demo](https://arduino731.github.io/JavaScript-Algorithms-and-Data-Structures/3project/)  |
 
 
 
@@ -35,15 +35,6 @@ Day 3-4
 **Thoughts:** I was struggling to understand how animationPlayState work such as "running": "paused". I have reviewed the docs on website that what I search for, so I can get their information and playing around with statement after click function. Also, I was using animation: rotate 4s linear infinite; and I have to put @keyframe for rotate from 0% to 360%. I had to look up on webstie to get some concept.  
 
 **Link to work:** Solar System project [here](https://codepen.io/arduino731/pen/mKZMjz)
-
-Day 5-6
-
-**Today's Progress:** worked on main Flexbox, DOM JavaScript, setTimeout(), animation such as @keyframes
-
-**Thoughts**: At the first, I was without looking at their or tutorial online courses I was thought loop able to stop an infinite loop in JavaScript but I was wrong, so I have decided to use the method called setTimeout because of the iterate very quickly. 
-here [How do I add a delay in a JavaScript loop?](https://stackoverflow.com/questions/3583724/how-do-i-add-a-delay-in-a-javascript-loop)
-
-**Link to Work:** Walking Paws Bot to Top DOM [here](https://codepen.io/arduino731/pen/bjvObW)
 
 Day 7-10
 

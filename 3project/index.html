@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel=stylesheet id=style type=text/css href=./css/style.css />
+
+    <title>Animation Paws</title>
+</head>
+<body>
+    <div class="imageWolfPaws">
+        <div class="walkingPawBox">
+          <div>
+            <img class="image-paws-left" src="https://res.cloudinary.com/djohzk4di/image/upload/v1533251712/wolf_pawLeft.png">
+          </div>
+        </div>
+
+        <div class="walkingPawBox">
+          <div>
+            <img class="image-paws-right" src="https://res.cloudinary.com/djohzk4di/image/upload/v1533166981/wolf_pawRight.png">
+          </div>
+        </div>
+      </div>
+    
+    <script>
+    document.addEventListener("DOMContentLoaded", () => {
+    let step = 0;
+    let marginPaws = 300;
+    const totalSteps = 10;
+
+    const pawLeft = document.querySelector('.image-paws-left');
+    const pawRight = document.querySelector('.image-paws-right');
+
+    function togglePaws(isLeft) {
+        if (isLeft) {
+            pawLeft.classList.add('fadePerfect');
+            pawRight.classList.remove('fadePerfect');
+            pawLeft.style.display = "flex";
+            pawRight.style.display = "none";
+            pawLeft.style.marginTop = marginPaws + 'px';
+        } else {
+            pawLeft.classList.remove('fadePerfect');
+            pawRight.classList.add('fadePerfect');
+            pawLeft.style.display = "none";
+            pawRight.style.display = "flex";
+            pawRight.style.marginTop = marginPaws + 'px';
+        }
+    }
+
+    function animatePaws() {
+        if (step < totalSteps) {
+            setTimeout(() => {
+                marginPaws -= 25;
+                console.log(step % 2 === 0 ? 'left' : 'right', marginPaws);
+
+                togglePaws(step % 2 === 0);
+                step++;
+
+                animatePaws(); // Recursive call
+            }, 500); // Delay each step by 500ms
+        } 
+        else {
+            // Final state after loop ends
+            console.log('Animation complete');
+            pawLeft.style.marginTop = `${marginPaws}px`;
+            pawRight.style.marginTop = `${marginPaws}px`;
+            pawLeft.style.display = "flex";
+            pawLeft.style.opacity = "1";
+            pawRight.style.opacity = "1";
+            pawLeft.classList.add('fadeinEnd');
+            pawRight.classList.add('fadeinEnd');
+            
+        }
+    }
+
+    animatePaws(); // Start animation
+});
+
+    </script>
+    
+</body>
+</html>
