@@ -13,6 +13,7 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 | 01  |     [JavaScript Select Menu: Changing Background with Switch and DOM Manipulation](https://github.com/arduino731/JavaScript-Algorithms-and-Data-Structures/tree/master/1project) | [Live Demo](https://arduino731.github.io/JavaScript-Algorithms-and-Data-Structures/1project/)  |
 | 02  |     [Form Input Text Wave](https://github.com/arduino731/JavaScript-Algorithms-and-Data-Structures/tree/master/2project) | [Live Demo](https://arduino731.github.io/JavaScript-Algorithms-and-Data-Structures/2project/)  |
 | 03  |     [Animation Paws](https://github.com/arduino731/JavaScript-Algorithms-and-Data-Structures/tree/master/3project) | [Live Demo](https://arduino731.github.io/JavaScript-Algorithms-and-Data-Structures/3project/)  |
+| 04  |     [Animated Countdown and Change Background](https://github.com/arduino731/JavaScript-Algorithms-and-Data-Structures/tree/master/4project) | [Live Demo](https://arduino731.github.io/JavaScript-Algorithms-and-Data-Structures/4project/)  |
 
 
 
@@ -90,10 +91,3 @@ Day 16
 
 **Link to Work**: [Todo List](https://arduino731.github.io/100daysofcode/day16/index.html)
 
-Day 17
-
-**Today's Progress**: Basically, I am using flexbox 
-
-**Thoughts**: 
-
-**Link to Work**: [Todo List](https://arduino731.github.io/100daysofcode/day17/index.html)

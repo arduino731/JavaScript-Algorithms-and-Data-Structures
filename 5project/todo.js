@@ -23,6 +23,7 @@ document.querySelector('#new-todo').addEventListener('submit', (e) => {
           completed: false,
           animated: true
       })
+      console.log(todos)
       render(todos); // refresh function list and add new todo
       // saveTodos(todos) will be save and store data
       e.target.elements.text.value = '';

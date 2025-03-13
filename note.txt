@@ -1,0 +1,41 @@
+Summary of JavaScript Algorithms and Data Structures (DSA)
+Data Structures and Algorithms (DSA) are fundamental concepts in programming that help optimize code efficiency and problem-solving. In JavaScript, DSA is widely used in areas like web development, backend programming, and competitive coding.
+
+1. Data Structures in JavaScript
+Data structures organize and store data efficiently. Common ones include:
+
+Arrays – Ordered lists that store elements sequentially (push(), pop(), map(), filter(), etc.).
+Linked Lists – A collection of nodes, where each node points to the next (singly, doubly, circular).
+Stacks – Last In, First Out (LIFO) structure (push(), pop()).
+Queues – First In, First Out (FIFO) structure (enqueue(), dequeue()).
+Hash Tables (Objects & Maps) – Key-value pairs for fast lookup (Map(), Set()).
+Trees – Hierarchical structures like Binary Search Trees (BST).
+Graphs – Nodes connected by edges, useful in networking and pathfinding.
+2. Algorithms in JavaScript
+Algorithms are step-by-step methods to solve problems efficiently. Common types include:
+
+Sorting Algorithms:
+
+Bubble Sort, Selection Sort, Insertion Sort (basic, slower)
+Merge Sort, Quick Sort (faster, divide & conquer)
+Searching Algorithms:
+
+Linear Search – Check each element one by one (O(n))
+Binary Search – Divide and conquer, works on sorted arrays (O(log n))
+Recursion:
+
+A function calling itself to solve smaller problems (e.g., factorial, Fibonacci).
+Graph Algorithms:
+
+Breadth-First Search (BFS), Depth-First Search (DFS).
+Dynamic Programming:
+
+Optimizing recursive problems by storing past results (e.g., Fibonacci, Knapsack problem).
+Greedy Algorithms:
+
+Solving problems by choosing the best option at each step (e.g., Dijkstra’s algorithm).
+3. Why Learn DSA in JavaScript?
+Improves problem-solving skills.
+Enhances efficiency in writing optimized code.
+Essential for coding interviews in tech companies.
+JavaScript is widely used in web development, where DSA concepts apply to frameworks, APIs, and backend systems.
