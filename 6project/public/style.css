@@ -8,6 +8,6 @@ body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   height: 100vh;
-  overflow: hidden;
+  overflow: scroll;
 }
 

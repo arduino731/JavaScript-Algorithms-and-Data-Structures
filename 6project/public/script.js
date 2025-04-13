@@ -10,9 +10,9 @@ let label = "Waiting...";
 let confidence = "";
 
 function setup() {
-  createCanvas(640,520);
+  let cnv = createCanvas(640,520);
+  cnv.parent('test'); // attach canvas to id
   video = createCapture(VIDEO);
-  // video.size(640, 520);
   video.hide();
 
   // Start classification when the video is ready
@@ -28,12 +28,11 @@ function startClassification() {
 
 function draw() {
   background(0);
-  image(video, 0, 0);
-  
+  image(video, 0, 50);
   textSize(32);
   textAlign(CENTER, CENTER);
   fill(255);
-  text(label, width / 2, height - 16);
+  text(label, width / 2, 30);
 }
 
 // Callback function for when classification has finished

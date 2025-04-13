@@ -6,7 +6,7 @@ Simple interface with webcam support
 
 Allows you to train a model using your own hand gesture images or videos
 
-Exports the trained model for use in web-based projects (e.g., with ml5.js and p5.js)
+Exports the trained model for use in web-based projects (with ml5.js and p5.js)
 
 🧠 How I Trained the Sign Language Model
 Step 1: Define the recognition goal
