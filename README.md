@@ -14,6 +14,9 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 | 02  |     [Form Input Text Wave](https://github.com/arduino731/JavaScript-Algorithms-and-Data-Structures/tree/master/2project) | [Live Demo](https://arduino731.github.io/JavaScript-Algorithms-and-Data-Structures/2project/)  |
 | 03  |     [Animation Paws](https://github.com/arduino731/JavaScript-Algorithms-and-Data-Structures/tree/master/3project) | [Live Demo](https://arduino731.github.io/JavaScript-Algorithms-and-Data-Structures/3project/)  |
 | 04  |     [Animated Countdown and Change Background](https://github.com/arduino731/JavaScript-Algorithms-and-Data-Structures/tree/master/4project) | [Live Demo](https://arduino731.github.io/JavaScript-Algorithms-and-Data-Structures/4project/)  |
+| 05  |     [Push Method with UUID Generation](https://github.com/arduino731/JavaScript-Algorithms-and-Data-Structures/tree/master/5project) | [Live Demo](https://arduino731.github.io/JavaScript-Algorithms-and-Data-Structures/5project/)  |
+| 06  |     [Machine Learning Training a Sign Language Model](https://github.com/arduino731/JavaScript-Algorithms-and-Data-Structures/tree/master/5project) | [Live Demo](https://arduino731.github.io/JavaScript-Algorithms-and-Data-Structures/5project/)  |
+
 
 
 
