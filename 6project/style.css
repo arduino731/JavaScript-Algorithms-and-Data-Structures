@@ -99,15 +99,25 @@ body {
 .boxes.big .box {
   transform: rotateZ(360deg);
 }
-.box::after , .box2:after{
+/* .box::after , .box2:after{
   content: '';
-  /* background-color: #f6e58d; */
+  background-color: #f6e58d;
   position: absolute;
   top: 8px;
   right: -15px;
   height: 100%;
   width: 15px;
   transform: skewY(45deg);
-}
+} */
 
+/* .box::before {
+  content: '';
+  background-color: #f9ca24;
+  position: absolute;
+  bottom: -15px;
+  left: 8px;
+  height: 15px;
+  width: 100%;
+  transform: skewX(45deg);
+} */
 

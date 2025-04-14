@@ -2,7 +2,11 @@ const boxesContainer = document.getElementById('boxes')
 const numberContainer = document.getElementById('numbers')
 const btn = document.getElementById('btn')
 
-btn.addEventListener("click", ()=> boxesContainer.classList.toggle('big'))
+btn.addEventListener("click", ()=>{
+ boxesContainer.classList.toggle('big');
+ numbersContainer.classList.toggle('big2');
+})
+    
 
 function createBoxes(){
     for(let i=0; i<4; i++){
@@ -16,10 +20,9 @@ function createBoxes(){
             number.textContent = outputNumber;
 
             box.style.backgroundPosition = `${-j * 125}px ${-i * 125}px`
-            number.style.backgroundPosition = `${-j * 125}px ${-i * 125}px`
 
+            box.appendChild(number)
             boxesContainer.appendChild(box)
-            numberContainer.appendChild(number)
         }
     }
 }
