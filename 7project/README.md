@@ -68,10 +68,10 @@ speedEl.addEventListener('input', (e) => {
 # 📚 Data Structures & Concepts Used
 
 |  Concept  |            How It's Used            |
-| :-: | :----------------------------: | :-------: |
-|Variables (let)| 	Store input values, speed, index, and timeout ID |
-|String Methods| 	slice() is used to simulate typing behavior |
-|Event Listeners| 	Respond to click and input events |
-|Timeout Control| 	setTimeout for looping, clearTimeout to restart cleanly |
-|HSL Color System| 	Dynamic background color based on speed value |
-|DOM Manipulation| 	Update text, input, and styles based on user interaction |
+| :-: | :----------------------------: |
+| Variables (let) | 	Store input values, speed, index, and timeout ID |
+| String Methods | 	slice() is used to simulate typing behavior |
+| Event Listeners | 	Respond to click and input events |
+| Timeout Control | 	setTimeout for looping, clearTimeout to restart cleanly |
+| HSL Color System | 	Dynamic background color based on speed value |
+| DOM Manipulation | 	Update text, input, and styles based on user interaction |
