@@ -16,6 +16,9 @@ body {
   align-items:center;
   justify-content:center;
 }
+.title{
+  margin-top:80px;
+}
 
 .magic {
   background-color: #f9ca24;
